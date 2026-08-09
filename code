@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+#include <cpr/cpr.h>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
+
+std::string fetchUniversityData(const std::string& query, const std::string& apiKey, const std::string& cx) {
+    std::string url = "https://www.googleapis.com/customsearch/v1";
+    
+    // Fetch results restricted to university CSE
+    cpr::Response r = cpr::Get(
+        cpr::Url{url},
+        cpr::Parameters{{"key", apiKey}, {"cx", cx}, {"q", query}}
+    );
+
+    if (r.status_code != 200) return "Error fetching search data.";
+
+    json response = json::parse(r.text);
+    std::string context = "";
+
+    if (response.contains("items")) {
+        for (const auto& item : response["items"]) {
+            std::string title = item.value("title", "");
+            std::string snippet = item.value("snippet", "");
+            context += "Title: " + title + "\nSnippet: " + snippet + "\n\n";
+        }
+    }
+    return context.empty() ? "No university records found." : context;
+}
+
+int main() {
+    std::string apiKey = "YOUR_GOOGLE_SEARCH_API_KEY";
+    std::string cx = "YOUR_CUSTOM_SEARCH_ENGINE_ID";
+    std::string query;
+
+    std::cout << "Ask University Assistant: ";
+    std::getline(std::cin, query);
+
+    std::string universityContext = fetchUniversityData(query, apiKey, cx);
+    std::cout << "\n--- Retrived University Context ---\n" << universityContext << std::endl;
+
+    // Next: Pass 'universityContext' + 'query' to Gemini API via HTTP POST
+    return 0;
+}
