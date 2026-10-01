@@ -1,0 +1,40 @@
+# FORMAT: keyword1, keyword2, keyword3 | answer
+# Use \n inside an answer for a new line. One topic per line.
+# Lines starting with # are ignored.
+
+library | The library is open from 8:00 AM to 12:00 AM on weekdays.
+attendance, 75%, exam eligibility, eligible for exam | A minimum 75% attendance per module is required for examination eligibility.\nYou can check your attendance on your MIS portal.
+cgpa, gpa, repeat course, improve grade | Student must maintain CGPA 2.00/4.00. It can be improved by repeating courses where you received a grade of 'C-' or below.
+chairperson, head of department, hod | Department: Civil Engineering\nChairperson: Dr. Sajjad Ali Mangi\n\nDepartment: Electrical Engineering\nChairperson: Prof. Mushtaq Ahmed Mirani\n\nDepartment: Mechanical Engineering\nChairperson: Prof. Dr. Mujeebuddin Sehrai\n\nDepartment: Computer Systems Engineering\nChairperson: Dr. Sanam Narejo\n\nDepartment: Software Engineering\nChairperson: Dr Naeem Ahmed Mahoto\n\nDepartment: Telecommunication Engineering\nChairperson: Dr. Faisal Karim Shaikh\n\nDepartment: Chemical Engineering\nChairperson: Dr. Inamullah Bhatti\n\nDepartment: Industrial Engineering & Management\nChairperson: Dr. Muhammad Saleh Jumani\n\nDepartment: Metallurgy and Materials Engineering\nChairperson: Dr. Umair Aftab\n\nDepartment: Mining Engineering\nChairperson: Dr. Fahad Irfan Siddiqui\n\nDepartment: Textile Engineering\nChairperson: Dr. Zeeshan Khatri\n\nDepartment: Electronic Engineering\nChairperson: Dr. Wajiha Shah
+id card, enrollment document | Student ID cards and enrollment documents can be collected from the Directorate of Admissions or your respective department office upon completing registration.
+eduroam, internet, wifi, wi-fi | You can connect to the campus Wi-Fi by entering your university-provided credentials through the IT Services portal settings on your device.
+summer semester, summer term, summer | The summer term and associated vacation period span approximately 8 weeks.
+job fair | A job fair connects students with employers and career opportunities.
+financial aid, scholarship, loan | The Students Financial Aid Office provides scholarships and educational loans.
+transcript | A transcript is a record of a student's academic performance.
+alumni | The alumni network connects graduates with each other and the university.
+
+admission, apply, how to get admitted, merit list | Admissions are announced on the official MUET website. Please check the website for the latest schedule, criteria and required documents.
+entry test, test date, test preparation | Details of the admission test are published on the official MUET admissions page. Please check it for the latest dates and syllabus.
+fee, tuition, challan, fee structure | The fee structure is available on the official MUET website and at the Accounts Office. Fees are usually paid through a fee challan at the designated bank.
+late fee, fee deadline, fee due date, fee refund | Fee deadlines and late fee rules are announced by the Accounts Office. Please contact them for your current dues.
+hostel, accommodation, boarding | Hostel accommodation is managed by the Hostel Office. Please contact the Provost or Hostel Office for seat availability and rules.
+transport, bus, bus pass, pick and drop | University transport information is available at the Transport Office. Please contact them for routes, timings and passes.
+cafeteria, canteen, food, mess | The campus has cafeterias for students and staff. You can find them near the main academic blocks.
+medical, doctor, health center, dispensary, clinic | The university has a medical center for students. Please visit it during working hours for first aid and basic treatment.
+sports, cricket, football, gym, ground | The university has sports facilities and grounds. Contact the Sports Office or Directorate of Physical Education for timings and teams.
+society, societies, club, clubs | Student societies and clubs organize technical, cultural and sports activities. You can join one through the Student Affairs Office or the society's own announcements.
+mis, portal, student portal, login | You can use the MIS portal to check attendance, results and other academic records. Log in with your registration credentials.
+result, marks, gazette | Results are published on the MIS portal and the notice board. Please check them there.
+recheck, re-check, rechecking, re-evaluation, result objection | For rechecking, submit an application to the Controller of Examinations within the announced time after the result.
+exam schedule, date sheet, datesheet, exam date | The exam schedule is announced by the Controller of Examinations and posted on the notice board and official website.
+timetable, time table, class schedule | Class timetables are displayed by your department and are shared by your class coordinator.
+grading, grade system, grade point, gpa calculation | The university uses a grade point system on a 4.00 scale. Please check the academic rules for the full grade table.
+degree, degree verification, provisional certificate, convocation | Degrees and provisional certificates are issued by the Controller of Examinations. Apply with the required documents and fee.
+internship, training, industrial visit | Internship and training opportunities are coordinated through your department and the career or placement office.
+library card, borrow book, book issue, e-library | You can borrow books with your library card. Please contact the library staff for issue limits and return dates.
+email, university email, lms, online class | University email and online class access are provided through the IT Services. Please contact your department or the IT office if you don't have credentials.
+contact, phone, helpline, address, location, where is muet | Mehran University of Engineering and Technology is located in Jamshoro, Sindh, Pakistan. Contact numbers are listed on the official website.
+complaint, problem, grievance, harassment | You can submit complaints to your department chairperson or the relevant university committee. Harassment complaints can go to the university's harassment committee.
+program, programs, courses offered, departments, degree program | MUET offers undergraduate, master's and PhD programs across its engineering departments. Please check the official website for the complete list.
+semester, semester system, semester dates, academic calendar | The academic calendar is issued by the university. Please check the official website or your department for semester start and end dates.
